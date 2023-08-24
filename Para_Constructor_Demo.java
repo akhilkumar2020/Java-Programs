@@ -1,5 +1,7 @@
-/* Parameterized Constructor – A constructor which has a specific number of parameters is known as parameterized constructor. */
+Parameterized Constructor – A constructor that has a specific number of parameters is known as a parameterized constructor. 
 
+Program - parameterized constructor
+  
 public class Para_Constructor_Demo 
 {
   Para_Constructor_Demo(int a, int b)
