@@ -1,4 +1,10 @@
+Method Overloading (Compile time Polymorphism) –  If a class has multiple methods having the same name but different in parameter, is known as method overloading.
 
+Ways to overload the method – 
+                            1.	By changing the number of arguments.
+                            2.	By changing the data types.
+
+PROGRAM - Method Overloading - By changing the number of Arguments
 class OverLoding_Demo
 {
     public int add( int a , int b)
