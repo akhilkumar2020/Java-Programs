@@ -1,18 +1,20 @@
-/*CONSTRUCTOR – 
+CONSTRUCTOR – 
 
 	1. A constructor is also a block of statements and instructions.
-	2. Constructor name is same as the class name.
-	3. Constructor has no RETURN TYPE.
-    4. Constructor cannot ABSTRACT, STATIC, FINAL, and SYNCHRONIZED.
+	2. The constructor name is same as the class name.
+	3. The constructor has no RETURN TYPE.
+        4. Constructor cannot ABSTRACT, STATIC, FINAL, and SYNCHRONIZED.
 
-    Types of Constructor – 
+    Types of Constructors – 
                     1.	Default constructor
                     2.	Parameterized constructor
 
-                    1.	Default Constructor -  It does not have any parameter. In java if  class have  no constructor then complier 
-                                                automatically create default constructor. The main purpose of default constructor is 
-                                                to INTIALIZE the instance variable of a class. */
+                    1.	Default Constructor -  It does not have any parameters. In Java, if  the class has  no constructor then compiler 
+                                                automatically creates a default constructor. The main purpose of a default constructor is 
+                                                to INITIALIZE the instance variable of a class. 
 
+PROGRAM - Default Constructor
+		
 class Constructor_Demo
 {
     Constructor_Demo()
