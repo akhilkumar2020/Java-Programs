@@ -1,4 +1,4 @@
-class Over_Loadings
+class OverLoding_Demo
 {
     public int add( int a , int b)
     {
@@ -6,7 +6,7 @@ class Over_Loadings
     }
 }
 
-class Second extends Over_Loadings
+class Secondary extends OverLoding_Demo
 {
     public int add( int a , int b, int c)
     {
@@ -14,11 +14,11 @@ class Second extends Over_Loadings
     }
 }
 
-class Over_Loading
+class Main
 {
     public static void main(String[] args)
     {
-        Second obj = new Second();
+        Secondary obj = new Secondary();
        
         System.out.println(obj.add(10,12));
         System.out.println(obj.add(10,12,20));
