@@ -1,25 +1,21 @@
-class Test{
-    
-	
-    public Test m1(){
+class Method_Chaining
+{    	
+    public Test method1(){
 	System.out.println("m1 is invoked");
-	// do something
 	return this;
     }
 	
-    public Test m2(){
+    public Test method2(){
 	System.out.println("m2 is invoked");
-	// do something
 	return this;
     }
     
-    public Test m3(){
+    public Test method3(){
 	System.out.println("m3 is invoked");
-	// do something
 	return this;
     }
     
     public static void main(String args[]) {
-	new Test().m1().m2().m3();
+	new Method_Chaining().method1().method2().method3();
     }
 }
