@@ -1,0 +1,41 @@
+REAL WORD PROGRAM OF ABSTRACTION: - BANK INTEREST RATE
+
+Consider the following class hierarchy consisting of an RBI class which is inherited by two classes SBI and BOI. The Shape class is created to save on common attributes and methods shared by the two classes 
+SBI and BOI. InterestRate( ) is one such method shared by all two child classes and present in the RBI class.
+SBI- State bank of India
+BOI- Bank of India
+
+Program- Abstraction
+
+abstract class RBI
+{    
+    abstract int InterestRate();    
+}    
+    
+class SBI extends RBI
+  {    
+    int InterestRate()
+    {
+        return 12;
+    }    
+  }    
+
+  class BOI extends RBI
+   {    
+      int InterestRate()
+      {
+        return 9;
+      }    
+   }    
+        
+class Govt
+{    
+    public static void main(String args[])
+     {    
+       RBI obj = new SBI();  
+       System.out.println("Rate of Interest is: "+ obj.InterestRate()+" %");   
+ 
+       obj = new BOI();  
+       System.out.println("Rate of Interest is: "+ obj.InterestRate()+" %");    
+     }
+}    
